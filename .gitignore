@@ -1,0 +1,8 @@
+bin/
+obj/
+publish/
+settings.json
+.vs/
+.idea/
+*.user
+*.suo
