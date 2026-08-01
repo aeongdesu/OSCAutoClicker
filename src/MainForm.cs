@@ -114,7 +114,7 @@ internal sealed class MainForm : Form
         int metadata = version.IndexOf('+');
         if (metadata >= 0) version = version[..metadata];
         _version.Text = version.Length > 0 ? $"v{version}" : "";
-        _version.Margin = new Padding(0, 1, 6, 0);
+        _version.Margin = new Padding(0, 0, 6, 0);
 
         _github.AutoSize = true;
         _github.Margin = new Padding(0);
@@ -150,7 +150,7 @@ internal sealed class MainForm : Form
         _detailsToggle.TextAlign = ContentAlignment.MiddleLeft;
         _detailsToggle.Cursor = Cursors.Hand;
         _detailsToggle.Anchor = AnchorStyles.Left;
-        _detailsToggle.Margin = new Padding(0, 8, 0, 4);
+        _detailsToggle.Margin = new Padding(0, 4, 0, 4);
         _detailsToggle.Click += (_, _) => SetDetailsOpen(!_detailsOpen);
         _detailsToggle.DoubleClick += (_, _) => SetDetailsOpen(!_detailsOpen);
         grid.Controls.Add(_detailsToggle, 0, row);

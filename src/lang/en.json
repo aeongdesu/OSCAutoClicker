@@ -5,7 +5,7 @@
   "Port": "Port",
   "Interval": "Click interval (ms)",
   "Hold": "Hold (ms)",
-  "Jitter": "Random jitter (±ms)",
+  "Jitter": "Random click interval (±ms)",
   "Hotkey": "Hotkey",
   "Language": "Language",
   "Start": "Start",
@@ -14,7 +14,7 @@
   "HotkeyPressKey": "Press a key...",
   "HotkeyCaptureHint": "Esc | cancel · Del | clear",
   "HotkeyFailedTitle": "Hotkey set failed",
-  "HotkeyFailedBody": "Cannot register {0} as a global hotkey.\n\nPlease choose a different key!",
+  "HotkeyFailedBody": "Cannot register {0} as a hotkey.\n\nPlease choose a different key.",
   "StatusIdle": "Stopped",
   "StatusStopped": "Stopped — {0} clicks",
   "StatusRunning": "Running — {0} clicks",
@@ -23,7 +23,7 @@
   "PortErrorBody": "Port must be a number between 1 and 65535.",
   "ConnectFailedTitle": "Connection failed",
   "OpenTargetFailed": "Cannot open the OSC target address.\n\n{0}",
-  "NothingListening": "Nothing is listening on {0}.\n\nCheck that OSC is enabled in VRChat: Action Menu → Options → OSC → Enabled.\n\nStart anyway?",
+  "NothingListening": "Nothing is listening on {0}.\nCheck that OSC is enabled in VRChat: Action Menu → Options → OSC → Enabled.\n\nStart anyway?",
   "SendFailed": "Failed to send OSC. The target port may be closed.\n\n{0}",
   "SendErrorTitle": "Send error"
 }
