@@ -9,3 +9,8 @@ Requires .NET Runtime 10.0
 ![](https://raw.githubusercontent.com/aeongdesu/OSCAutoClicker/refs/heads/main/.github/sceenshot.png)
 
 holy shit this aint look like ai slop!!!!!!!
+
+
+---
+
+japanese translation: Ebi-Prawn

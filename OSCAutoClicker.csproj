@@ -8,6 +8,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>OSCAutoClicker</RootNamespace>
     <AssemblyName>OSCAutoClicker</AssemblyName>
+    <Version>1.0.1</Version>
+    <Authors>aeongdesu</Authors>
+    <PackageLicenseUrl>https://github.com/aeongdesu/OSCAutoClicker/blob/main/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/aeongdesu/OSCAutoClicker</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
